@@ -109,8 +109,8 @@ p {
 }
 
 .archer {
-    background-image: url(assests/sterlingarcher.jpeg);
-    background-size: cover;
+  background-image: url(assests/sterlingarcher.jpeg);
+  background-size: cover;
 }
 .malory {
   background-image: url(assests/maloryarcher.jpg);
@@ -155,7 +155,9 @@ p {
   max-width: 241px;
   text-align: left;
 }
-
+.date{
+  font-size: 12px;
+}
 .info {
   padding: 5px;
 }
@@ -306,8 +308,10 @@ li:hover {
 }
 
 @media (max-width: 582px) {
+
   h2 {
     text-align: center;
+    width: 100%;
   }
 
   header{
