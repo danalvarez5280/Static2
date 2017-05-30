@@ -251,6 +251,9 @@ li:hover {
   }
 
   .cards-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin: 20px auto;
     max-width: 85%;
   }
@@ -261,11 +264,6 @@ li:hover {
 
 }
 
-@media (max-width: 864px) {
-  h2 {
-    text-align: center;
-  }
-}
 
 @media (max-width: 850px) {
 
