@@ -1,0 +1,306 @@
+body{
+  background-color: #034748;
+  margin: 0px;
+}
+
+h1 {
+  display: inline-block;
+  /*float: right;*/
+  font-size: 2.5em;
+  margin: 0px 20px 15px 0px;
+}
+
+header {
+  background-color: #000103;
+  color: #FFFFFA;
+  display: inline-block;
+  font-family: 'baveuse';
+  height: auto;
+  margin: 0px;
+  padding: 0 10px;
+  width: 100%;
+}
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 20px 10px 0px;
+  /*padding: 15px 0 15px 0;*/
+}
+
+nav{
+  display: inline-block;
+  margin: 0px auto;
+}
+
+p {
+  margin: 5px 5px 0px 5px;
+}
+
+.header-contents {
+  display: inline-block;
+  margin: 0px 20px 10px 200px;
+  text-align: center;
+}
+
+.site-name {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.icons {
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.admin {
+  height: 15px;
+  margin-bottom: 15px;
+}
+.cards-area {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'baveuse';
+  margin: 20px 25px;
+  max-width: 100%;
+}
+
+.photo {
+  height: 209px;
+  width: 241px;
+}
+
+.arrow {
+  background-color: #000103;
+  border: 0px solid #FFFFFA;
+  border-radius: 50%;
+  float: left;
+  height: 30px;
+  margin: 5px 0px 0px 5px;
+  opacity: .5;
+  width: 30px;
+}
+
+.views {
+  color: #FFFFFA;
+  float: right;
+  margin-right: 10px;
+  text-shadow: 1px 1px 1px #000103;
+}
+
+.archer {
+    background-image: url(assests/sterlingarcher.jpeg);
+    background-size: cover;
+}
+.malory {
+  background-image: url(assests/maloryarcher.jpg);
+  background-size: cover;
+}
+
+.lana {
+  background-image: url(assests/lanakane.jpg);
+  background-size: cover;
+}
+
+.cyril {
+  background-image: url(assests/cyrilfiggis.jpg);
+  background-size: cover;
+}
+
+.pam {
+  background-image: url(assests/pampoovey.jpg);
+  background-size: cover;
+}
+
+.cheryl {
+  background-image: url(assests/cheryltunt.jpg);
+  background-size: cover;
+}
+
+.dr {
+  background-image: url(assests/drkrieger.jpg);
+  background-size: cover;
+}
+
+.woodhouse {
+  background-image: url(assests/woodhouse.jpg);
+  background-size: cover;
+}
+
+.cards {
+  background-color: #FFFFFA;
+  box-shadow: 5px 5px 5px #000103;
+  height: auto;
+  margin: 20px 5px;
+  max-width: 241px;
+  text-align: left;
+}
+
+.info {
+  padding: 5px;
+}
+
+.links {
+  background-color: #FFFC31;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  max-width: 241px;
+}
+
+/*Hover States*/
+
+li:hover {
+  color: #FD5200;
+  cursor: crosshair;
+  transform: scale(1.1);
+}
+
+.arrow:hover {
+  cursor: crosshair;
+  opacity: 1.0;
+}
+
+.cards:hover {
+  box-shadow: 10px 10px 10px #000103;
+  transform: scale(1.1);
+}
+
+.links:hover {
+  cursor: crosshair;
+  transform: scale(1.04);
+}
+
+.views:hover {
+  color: #FFFC31;
+  cursor: crosshair;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1069px) {
+  .site-name{
+    margin-right: 50px;
+  }
+
+  .cards-area{
+    margin: 20px auto;
+    max-width: 85%;
+  }
+
+  .cards{
+    margin: 20px 20px;
+  }
+}
+
+
+@media (max-width: 1006px) {
+  header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  ul {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .header-contents{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .site-name {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .cards-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+}
+
+@media (max-width: 850px) {
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  ul {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .header-contents{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .site-name {
+    display: block;
+    float: none;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .cards-area {
+    margin: 20px auto;
+    width: 75%;
+  }
+  .cards {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 606px) {
+  .cards-area{
+    display: block;
+    width: 100%;
+  }
+
+  .cards {
+    margin: 20px auto;
+  }
+
+}
+
+
+@media (max-width: 325px) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .cards-area {
+    width: 100%;
+  }
+
+  .cards {
+    margin: 20px auto;
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+}
