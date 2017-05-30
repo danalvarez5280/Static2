@@ -264,7 +264,6 @@ li:hover {
 
 }
 
-
 @media (max-width: 850px) {
 
   header{
@@ -321,6 +320,12 @@ li:hover {
     margin: 20px auto;
   }
 
+}
+
+@media (max-width: 523px) {
+  h2 {
+    text-align: center;
+  }
 }
 
 
