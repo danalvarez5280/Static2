@@ -4,8 +4,7 @@ body{
 }
 
 h1 {
-  display: inline-block;
-  /*float: right;*/
+  display: block;
   font-size: 2.5em;
   margin: 0px 20px 15px 0px;
 }
@@ -46,6 +45,7 @@ p {
   display: inline-block;
   float: right;
   margin-right: 20px;
+  text-align: right;
 }
 
 .icons {
@@ -54,9 +54,15 @@ p {
   width: 20px;
 }
 
-.admin {
+.iconic {
   height: 15px;
-  margin-bottom: 15px;
+  width: 15px;
+}
+
+.admin {
+  display: inline-block;
+  height: 15px;
+  margin: 15px 20px 15px 0px;
 }
 .cards-area {
   display: flex;
