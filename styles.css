@@ -155,7 +155,8 @@ p {
   max-width: 241px;
   text-align: left;
 }
-.date{
+.date,
+.codename {
   font-size: 12px;
 }
 .info {
